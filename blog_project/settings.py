@@ -1,5 +1,5 @@
 import os
-#import django_heroku
+import django_heroku
 
 
 
@@ -134,4 +134,4 @@ CKEDITOR_BASEPATH = "/static/ckeditor/ckeditor/"
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-#django_heroku.settings(locals())
+django_heroku.settings(locals())
