@@ -1,0 +1,18 @@
+{% extends 'blog/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="container">
+
+    <div class="mt-5 mb-5 text-center w-50 centered">
+    <legend><h1>Create New Post</h1></legend>
+        <form action="" method="post">
+            {% csrf_token %}
+            {{ form.media }}
+            {{ form|crispy}}
+            <input type="submit" value="Post" class="btn btn-info">
+        </form>
+
+    </div>
+</div>
+
+{% endblock content %}

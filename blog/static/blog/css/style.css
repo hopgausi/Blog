@@ -1,0 +1,29 @@
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px
+    }
+    
+    p {
+        font-size: 20px;
+    }
+    
+    .bold {
+        font-weight: bold;
+    }
+    
+    .navbar ul {
+        text-align: center;
+    }
+    
+    .navbar a {
+        color: white!important;
+    }
+    
+    .centered {
+        position: relative;
+        left: 27%;
+    }
+    
+    .dp {
+        width: 25%!important;
+    }
